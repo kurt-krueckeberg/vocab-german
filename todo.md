@@ -4,4 +4,4 @@ For the verb `aussehen`, definitions of `Aussehen` are returned.
 
 and 
 
-`$defnsInterface->matches['source']['lemma']` == `Aussehen`
+`$defnsInterface->matches['source']['lemma'] == 'Aussehen'`
