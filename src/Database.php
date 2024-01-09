@@ -83,7 +83,7 @@ class Database /* implements DatabaseInterface */ {
 
       $this->defnsInserter = new DefinitionsInserter($this->pdo);
 
-      $this->defnsInserter->insert($deface,  $id);
+      $rc = $this->defnsInserter->insert($id, $deface);
 
       return true;
    }

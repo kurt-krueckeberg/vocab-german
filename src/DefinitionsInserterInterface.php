@@ -4,5 +4,5 @@ namespace Vocab;
 
 interface DefinitionsInserterInterface {
 
-   function insert(DefinitionsInterface $deface, int $word_id) : bool;
+   function insert(int $word_id, DefinitionsInterface $deface) : bool;
 }

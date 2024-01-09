@@ -31,7 +31,7 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
       $this->insert_expr_stmt->bindParam(':word_id', $this->word_id, \PDO::PARAM_INT); 
    }
 
-   public function insert(DefinitionsInterface $deface, int $word_id) : bool
+   public function insert(int $word_id, DefinitionsInterface $deface) : bool
    {
       // Insert each definition and its associated expressions
       $definitions = $deface->get_definitions();
@@ -42,8 +42,9 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
 
         $this->word_id  = $word_id; // <---
 
-        $this->insert_defn_stmt->execute();
+        $rc =$this->insert_defn_stmt->execute();
       }
+      return $rc;
    }
 
    

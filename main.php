@@ -40,10 +40,22 @@ try {
 
        if ($definitions === false) continue;
        
-       if ($db->word_exists($word) === false)
-              
-           $db->insert($word, $definitions); 
-   
+       if ($db->word_exists($word) === false) {
+         
+           echo "About to insert $word.\n";      
+
+           $rc = $db->insert($word, $definitions); 
+
+           if ($rc === false) {
+
+               echo "Return code from inserting $word was FALSE.\n";
+
+           } else {
+
+  
+               echo "Return code from inserting $word was $rc.\n";
+           }
+        }
        //--$iter = $leipzig->fetch_samples($word, 5);
 
       //$arr = $db_inserter->insert_samples($word, $iter, $sys); 
