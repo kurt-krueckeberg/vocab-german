@@ -3,6 +3,8 @@ declare(strict_types=1);
 namespace Vocab; 
 
 class DefinitionsInserter implements DefinitionsInserterInterface {
+    
+   private \PDO $pdo; 
    
    private static $insert_defn_sql = "insert into defns(defn, word_id) values(:defn, :word_id)";
    private \PDOStatement $insert_defn_stmt; 
@@ -15,6 +17,8 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
 
    public function __construct(\PDO $pdo)
    {
+      $this->pdo = $pdo;
+      
       $this->insert_defn_stmt = $pdo->prepare(self::$insert_defn_sql); 
 
       $this->insert_defn_stmt->bindParam(':defn', $this->defn, \PDO::PARAM_STR);
