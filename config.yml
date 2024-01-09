@@ -1,0 +1,64 @@
+---
+  providers: 
+      - 
+        name: "leipzig_de"
+        endpoint: "https://api.wortschatz-leipzig.de/ws/sentences/deu_news_2012_1M/sentences/"
+      - 
+        name: "azure"
+        endpoint: "https://api-nam.cognitive.microsofttranslator.com"
+        headers: 
+          header: 
+            - 
+              key: "Ocp-Apim-Subscription-Key"
+              $t: "ef6e5b44c68d438c8d79cae2f8c020ba"
+            - 
+              key: "Ocp-Apim-Subscription-Region"
+              $t: "eastus2"
+      - 
+        name: "oxford"
+        endpoint: "https://od-api.oxforddictionaries.com/api/v2"
+        headers: 
+          header: 
+            - 
+              key: "app_id"
+              $t: "3946d338"
+            - 
+              key: "app_key"
+              $t: "ed3b30b2cee9bc736eb9d6ed63873c24"
+      - 
+        name: "deepl"
+        endpoint: "https://api-free.deepl.com/v2"
+        headers: 
+          header: 
+            key: "Authorization"
+            $t: "DeepL-Auth-Key 7482c761-0429-6c34-766e-fddd88c247f9:fx"
+      - 
+        name: "systran"
+        endpoint: "https://api-translate.systran.net"
+        headers: 
+          header: 
+            key: "Authorization"
+            $t: "Key bf31a6fd-f202-4eef-bc0e-1236f7e33be4"
+      - 
+        name: "collins"
+        abbrev: "c"
+        endpoint: "https://api.collinsdictionary.com"
+        headers: 
+          header: 
+            key: "accessKey"
+            $t: "igRZPPW5ilBklGQrk7mtrbQwktc0Q9v0848GhQLmo07YsHhKKYzyZcCJ4pQPYuzg"
+      - 
+        name: "pons"
+        endpoint: "https://api.pons.com/v1/"
+        headers: 
+          header: 
+            key: "X-Secret"
+            $t: "5cd95065ab2fcd9569fce1b5e9af4eecbd817ccb54badde17d2f9f10fe0bbf2b"
+      - 
+        name: "itranslate"
+        endpoint: "https://dev-api.itranslate.com/translation/v2/"
+        headers: 
+          header: 
+            key: "Authorization"
+            $t: "Bearer 6b55ae6d-c4c9-4cde-b68b-fcf791f42f33"
+

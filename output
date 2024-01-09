@@ -1,0 +1,1913 @@
+Part of speech of beten = verb
+Conjugation for verb beten is (betet/betete/gebetet)
+The definitions of beten are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to pray
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to worship
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of beschützen = verb
+Conjugation for verb beschützen is (beschützt/beschützte/beschützt)
+The definitions of beschützen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to protect
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to guard
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of verraten = verb
+Conjugation for verb verraten is (verrät/verriet/verraten)
+The definitions of verraten are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to betray
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to reveal
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to sell out
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to divulge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to give away
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of aussehen = noun
+The definitions of aussehen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => appearance
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => look
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => layout
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => visage
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for fortgehen
+fortgehen has no definition.
+The definitions of fortgehen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => appearance
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => look
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => layout
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => visage
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of spülen = verb
+Conjugation for verb spülen is (spült/spülte/gespült)
+The definitions of spülen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to flush
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to wash
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of überleben = verb
+Conjugation for verb überleben is (überlebt/überlebte/überlebt)
+The definitions of überleben are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to survive
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => überleben heute
+                            [target] => to survive today
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => allein überleben
+                            [target] => to survive alone
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to outlive
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for auslassen
+auslassen has no definition.
+The definitions of auslassen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to survive
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => überleben heute
+                            [target] => to survive today
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => allein überleben
+                            [target] => to survive alone
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to outlive
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of Rückkehr = noun
+The definitions of Rückkehr are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => return
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => freiwillige Rückkehr
+                            [target] => voluntary return
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => Rückkehr zur Demokratie
+                            [target] => return to democracy
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => Rückkehr der Flüchtlinge
+                            [target] => return of the refugees
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => Rückkehr zur Vollbeschäftigung
+                            [target] => return to full employment
+                        )
+
+                )
+
+        )
+
+)
+No definitions found for umkehren
+umkehren has no definition.
+The definitions of umkehren are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => return
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => freiwillige Rückkehr
+                            [target] => voluntary return
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => Rückkehr zur Demokratie
+                            [target] => return to democracy
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => Rückkehr der Flüchtlinge
+                            [target] => return of the refugees
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => Rückkehr zur Vollbeschäftigung
+                            [target] => return to full employment
+                        )
+
+                )
+
+        )
+
+)
+Part of speech of unterbrechen = verb
+Conjugation for verb unterbrechen is (unterbricht/unterbrach/unterbrochen)
+The definitions of unterbrechen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to interrupt
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to suspend
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to break
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to disrupt
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to adjourn
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [definition] => to cut off
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => unterbrechen den Redner
+                            [target] => to cut off the speaker
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [definition] => to cut
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of leisten = verb
+Conjugation for verb leisten is (leistet/leistete/geleistet)
+The definitions of leisten are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to do
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => gute Arbeit leisten
+                            [target] => to do a good job
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => sehr gute Arbeit leisten
+                            [target] => to do a very good job
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => hervorragende Arbeit leisten
+                            [target] => to do excellent work
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => exzellent Arbeit leisten
+                            [target] => to do an excellent job
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to make
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => zu dieser Debatte leisten
+                            [target] => to make to this debate
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to provide
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => humanitäre Hilfe leisten
+                            [target] => to provide humanitarian aid
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => Hilfe leisten
+                            [target] => to provide aid
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to afford
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to play
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [definition] => to carry out
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => gemeinsam leisten
+                            [target] => to carry out together
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [definition] => to give
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [7] => Array
+        (
+            [definition] => to lodge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [definition] => to contribute
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for loslassen
+loslassen has no definition.
+The definitions of loslassen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to do
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => gute Arbeit leisten
+                            [target] => to do a good job
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => sehr gute Arbeit leisten
+                            [target] => to do a very good job
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => hervorragende Arbeit leisten
+                            [target] => to do excellent work
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => exzellent Arbeit leisten
+                            [target] => to do an excellent job
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to make
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => zu dieser Debatte leisten
+                            [target] => to make to this debate
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to provide
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => humanitäre Hilfe leisten
+                            [target] => to provide humanitarian aid
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => Hilfe leisten
+                            [target] => to provide aid
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to afford
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to play
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [definition] => to carry out
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => gemeinsam leisten
+                            [target] => to carry out together
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [definition] => to give
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [7] => Array
+        (
+            [definition] => to lodge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [definition] => to contribute
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for Ausklang
+Ausklang has no definition.
+The definitions of Ausklang are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to do
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => gute Arbeit leisten
+                            [target] => to do a good job
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => sehr gute Arbeit leisten
+                            [target] => to do a very good job
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => hervorragende Arbeit leisten
+                            [target] => to do excellent work
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => exzellent Arbeit leisten
+                            [target] => to do an excellent job
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to make
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => zu dieser Debatte leisten
+                            [target] => to make to this debate
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to provide
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => humanitäre Hilfe leisten
+                            [target] => to provide humanitarian aid
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => Hilfe leisten
+                            [target] => to provide aid
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to afford
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to play
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [definition] => to carry out
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => gemeinsam leisten
+                            [target] => to carry out together
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [definition] => to give
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [7] => Array
+        (
+            [definition] => to lodge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [definition] => to contribute
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of Verräter = noun
+The definitions of Verräter are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => traitor
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for vorgesetzt
+vorgesetzt has no definition.
+The definitions of vorgesetzt are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => traitor
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for Vorgesetzter
+Vorgesetzter has no definition.
+The definitions of Vorgesetzter are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => traitor
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of stöhnen = verb
+Conjugation for verb stöhnen is 
+The definitions of stöhnen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to moan
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of husten = verb
+Conjugation for verb husten is 
+The definitions of husten are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to cough
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => husten viel
+                            [target] => to cough a lot
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to cough up
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of erfahren = adj
+The definitions of erfahren are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => experienced
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => sehr erfahrene
+                            [target] => very experienced
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => seasoned
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => senior
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => sophisticated
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => skilled
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [definition] => accomplished
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [definition] => to learn
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => von diesen Inseln erfahren
+                            [target] => to learn of the Islands
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [definition] => to know
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [definition] => to experience
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => Diskriminierung erfahren
+                            [target] => to experience discrimination
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => nie Diskriminierung erfahren
+                            [target] => to never experience discrimination
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [definition] => to hear
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [10] => Array
+        (
+            [definition] => to find out
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [11] => Array
+        (
+            [definition] => to receive
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [12] => Array
+        (
+            [definition] => to discover
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => heute erfahren
+                            [target] => to discover today
+                        )
+
+                )
+
+        )
+
+    [13] => Array
+        (
+            [definition] => to undergo
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [14] => Array
+        (
+            [definition] => to enjoy
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => breite Unterstützung erfahren
+                            [target] => to enjoy broad support
+                        )
+
+                )
+
+        )
+
+)
+Part of speech of schüchtern = verb
+Conjugation for verb schüchtern is 
+The definitions of schüchtern are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => shy
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => timid
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => fast schüchterne
+                            [target] => almost timid
+                        )
+
+                )
+
+        )
+
+)
+Part of speech of überwältigen = verb
+Conjugation for verb überwältigen is (überwältigt/überwältigte/überwältigt)
+The definitions of überwältigen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to overwhelm
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to overpower
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to ingulf
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to overmaster
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to engulf
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for zurückkehren
+zurückkehren has no definition.
+The definitions of zurückkehren are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to overwhelm
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to overpower
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to ingulf
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to overmaster
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to engulf
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for durchladen
+durchladen has no definition.
+The definitions of durchladen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to overwhelm
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to overpower
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to ingulf
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to overmaster
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to engulf
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of kriegen = verb
+Conjugation for verb kriegen is (kriegt/kriegte/gekriegt)
+The definitions of kriegen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to get
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to catch
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of begraben = verb
+Conjugation for verb begraben is (begräbt/begrub/begraben)
+The definitions of begraben are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to bury
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => im schneesturm begraben
+                            [target] => buried in the blizzard
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to interred
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to entomb
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+Part of speech of betrogen = verb
+Conjugation for verb betrogen is 
+The definitions of betrogen are:
+Array
+(
+)
+No definitions found for abnehmen
+abnehmen has no definition.
+The definitions of abnehmen are:
+Array
+(
+)
+Part of speech of steigen = verb
+Conjugation for verb steigen is (steigt/stieg/gestiegen)
+The definitions of steigen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to increase
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weiter steigen
+                            [target] => to increase further
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => drastisch steigen
+                            [target] => to increase dramatically
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => beträchtlich steigen
+                            [target] => to increase significantly
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => erheblich steigen
+                            [target] => to increase considerably
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to rise
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weniger steigen
+                            [target] => to rise less
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => rasch steigen
+                            [target] => to rise faster
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => steil steigen
+                            [target] => to rise sharply
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => wieder steigen
+                            [target] => to rise again
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to grow
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => schneller steigen
+                            [target] => to grow faster
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => dramatisch steigen
+                            [target] => to grow dramatically
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to go up
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to surge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for umsteigen
+umsteigen has no definition.
+The definitions of umsteigen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to increase
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weiter steigen
+                            [target] => to increase further
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => drastisch steigen
+                            [target] => to increase dramatically
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => beträchtlich steigen
+                            [target] => to increase significantly
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => erheblich steigen
+                            [target] => to increase considerably
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to rise
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weniger steigen
+                            [target] => to rise less
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => rasch steigen
+                            [target] => to rise faster
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => steil steigen
+                            [target] => to rise sharply
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => wieder steigen
+                            [target] => to rise again
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to grow
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => schneller steigen
+                            [target] => to grow faster
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => dramatisch steigen
+                            [target] => to grow dramatically
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to go up
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to surge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for zukommen
+zukommen has no definition.
+The definitions of zukommen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to increase
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weiter steigen
+                            [target] => to increase further
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => drastisch steigen
+                            [target] => to increase dramatically
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => beträchtlich steigen
+                            [target] => to increase significantly
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => erheblich steigen
+                            [target] => to increase considerably
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to rise
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weniger steigen
+                            [target] => to rise less
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => rasch steigen
+                            [target] => to rise faster
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => steil steigen
+                            [target] => to rise sharply
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => wieder steigen
+                            [target] => to rise again
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to grow
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => schneller steigen
+                            [target] => to grow faster
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => dramatisch steigen
+                            [target] => to grow dramatically
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to go up
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to surge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for zustimmen
+zustimmen has no definition.
+The definitions of zustimmen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to increase
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weiter steigen
+                            [target] => to increase further
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => drastisch steigen
+                            [target] => to increase dramatically
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => beträchtlich steigen
+                            [target] => to increase significantly
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => erheblich steigen
+                            [target] => to increase considerably
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to rise
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weniger steigen
+                            [target] => to rise less
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => rasch steigen
+                            [target] => to rise faster
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => steil steigen
+                            [target] => to rise sharply
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => wieder steigen
+                            [target] => to rise again
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to grow
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => schneller steigen
+                            [target] => to grow faster
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => dramatisch steigen
+                            [target] => to grow dramatically
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to go up
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to surge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)
+No definitions found for zulassen
+zulassen has no definition.
+The definitions of zulassen are:
+Array
+(
+    [0] => Array
+        (
+            [definition] => to increase
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weiter steigen
+                            [target] => to increase further
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => drastisch steigen
+                            [target] => to increase dramatically
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => beträchtlich steigen
+                            [target] => to increase significantly
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => erheblich steigen
+                            [target] => to increase considerably
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [definition] => to rise
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => weniger steigen
+                            [target] => to rise less
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => rasch steigen
+                            [target] => to rise faster
+                        )
+
+                    [2] => Array
+                        (
+                            [source] => steil steigen
+                            [target] => to rise sharply
+                        )
+
+                    [3] => Array
+                        (
+                            [source] => wieder steigen
+                            [target] => to rise again
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [definition] => to grow
+            [expressions] => Array
+                (
+                    [0] => Array
+                        (
+                            [source] => schneller steigen
+                            [target] => to grow faster
+                        )
+
+                    [1] => Array
+                        (
+                            [source] => dramatisch steigen
+                            [target] => to grow dramatically
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [definition] => to go up
+            [expressions] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [definition] => to surge
+            [expressions] => Array
+                (
+                )
+
+        )
+
+)

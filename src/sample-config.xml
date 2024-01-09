@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <provider name="leipzig_de" >
+        <headers></headers>
+        <endpoint>https://api.wortschatz-leipzig.de/ws/sentences/deu_news_2012_1M/sentences/</endpoint> 
+       </provider>
+   <provider name="leipzig_es" >
+    <headers></headers>
+    <endpoint>https://api.wortschatz-leipzig.de/ws/sentences/spa_news_2011_3M/sentences/</endpoint> 
+       <provider name="deepl" >
+           <endpoint>https://api-free.deepl.com/v2</endpoint>
+           <headers>
+               <header key="Authorization">DeepL-Auth-Key add-your-key-here</header>
+           </headers>
+    </provider>
+    <provider name="systran" >
+           <endpoint>https://api-translate.systran.net</endpoint>
+           <headers>
+               <header key="Authorization">Key add-your-key-here</header>
+           </headers>
+    </provider>
+    <provider name="pons" >
+          <endpoint>https://api.pons.com/v1/</endpoint>
+          <headers>
+             <header key="X-Secret">add-your-key-here</header>
+         </headers>
+   </provider>
+   <provider name="collins" abbrev ="c">
+           <endpoint>https://api.collinsdictionary.com</endpoint>
+           <headers>
+               <header key="accessKey">add-your-key-here</header>
+           </headers>
+    </provider>
+      <provider name="oxford" >
+           <endpoint>https://od-api.oxforddictionaries.com/api/v2</endpoint>
+           <headers>
+               <header key="app_id">add-your-key-here</header>
+               <header key="app_key">add-your-key-here</header>
+           </headers>
+    </provider>
+
+</providers>

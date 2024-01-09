@@ -1,0 +1,12 @@
+* For expressions, we only add them if they exist.
+
+
+* Move word_exists() method from WordInsertInterface. Put it Database.php or create a WordTable class
+that implements InserterInterface and has a word_exists method? Say:
+
+class WordTable implements WordInserter {
+
+class VerbTable extends WordTable implements VerbInserter {
+
+class NounTable extends WordTable implements NounInserter
+
