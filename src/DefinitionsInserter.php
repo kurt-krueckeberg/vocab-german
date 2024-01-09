@@ -63,7 +63,7 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
         
         if (count($array['expressions']) != 0)
 
-           $rc = $this->insert_expressions($defn_id, array['expressions']);        
+           $rc = $this->insert_expressions($defn_id, $array['expressions']);        
       }
       return $rc;
    }
