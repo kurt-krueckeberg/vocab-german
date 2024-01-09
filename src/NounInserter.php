@@ -7,6 +7,7 @@ class NounInserter extends WordInserter {
    private \PDOStatement $insert; 
    private string $gender = '';
    private string $plural = '';
+   private int $word_id = -1;
 
    private static $insert_sql = "insert into nouns_data(gender, plural) values(:gender, :plural, :word_id)";
 
