@@ -31,7 +31,13 @@ class NounInserter extends WordInserter {
    public function insert(string $word, DefinitionsInterface $deface) : int
    {
        $id = parent::insert($word, $deface);
-
+       
+       $temp = $deface->get_gender();
+               
+       $x = $temp->value;
+       
+       $plural = $deface->get_plural();
+       
        $this->insert_noun_data($deface->get_gender(), $deface->get_plural(), $id);
 
        return $id;

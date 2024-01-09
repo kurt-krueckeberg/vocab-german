@@ -4,14 +4,17 @@ namespace Vocab;
 
 class SystranNounDefinitions extends SystranDefinitions implements NounDefinitionsInterface { 
 
+    
   public function __construct(array $matches)
   {
-     parent::__construct($matches);
+     parent::__construct($matches);     
   }
  
   public function get_gender() : Gender
   {
-     return match ($this->std->source->info) {
+     $m = $this->matches();
+     
+     return match (m['source']['info']) {
  
         'm' => Gender::Mas,
         'f' => Gender::Fem,
@@ -23,7 +26,7 @@ class SystranNounDefinitions extends SystranDefinitions implements NounDefinitio
   {
      // Strip of the beginning "(pl:" and the ending ")"
      
-     $x = substr($this->matches['source']['inflection'], strpos($this->matches['source']['inflection'], ':') + 1, -1); 
+     $x = substr($this->matches()['source']['inflection'], strpos($this->matches['source']['inflection'], ':') + 1, -1); 
      
      return $x; 
   }

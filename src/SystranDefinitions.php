@@ -10,6 +10,11 @@ class SystranDefinitions implements DefinitionsInterface {
   {
      $this->matches = $matches; 
   }
+  
+  public function matches() : array
+  {
+      return $this->matches;
+  }
 
   public function get_pos() : Word
   {
