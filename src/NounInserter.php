@@ -4,7 +4,7 @@ namespace Vocab;
 
 class NounInserter extends WordInserter {
     
-   private \PDOStatement $insert; 
+   private \PDOStatement $nouns_data_insert; 
    private string $gender = '';
    private string $plural = '';
    private int $word_id = -1;
@@ -19,13 +19,13 @@ class NounInserter extends WordInserter {
    {
       parent::__construct($pdo);
 
-      $this->insert = $pdo->prepare(self::$insert_sql); 
+      $this->nouns_data_insert = $pdo->prepare(self::$insert_sql); 
 
-      $this->insert->bindParam(':gender', $this->gender, \PDO::PARAM_STR);
+      $this->nouns_data_insert->bindParam(':gender', $this->gender, \PDO::PARAM_STR);
  
-      $this->insert->bindParam(':plural', $this->plural, \PDO::PARAM_STR); 
+      $this->nouns_data_insert->bindParam(':plural', $this->plural, \PDO::PARAM_STR); 
 
-      $this->insert->bindParam(':word_id', $this->word_id, \PDO::PARAM_INT); 
+      $this->nouns_data_insert->bindParam(':word_id', $this->word_id, \PDO::PARAM_INT); 
    }
    
    public function insert(string $word, DefinitionsInterface $deface) : int
@@ -45,6 +45,6 @@ class NounInserter extends WordInserter {
 
       $this->word_id = $word_id;
  
-      return $this->insert->execute();
+      return $this->nouns_data_insert->execute();
    }
 }
