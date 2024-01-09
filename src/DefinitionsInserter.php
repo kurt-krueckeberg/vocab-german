@@ -31,18 +31,30 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
       $this->insert_expr_stmt->bindParam(':word_id', $this->word_id, \PDO::PARAM_INT); 
    }
 
+   private function insert_expression(int $defn_id, string $expression) : bool
+   {
+
+   }
+
+
    public function insert(int $word_id, DefinitionsInterface $deface) : bool
    {
       // Insert each definition and its associated expressions
-      $definitions = $deface->get_definitions();
+      $definition_results = $deface->get_definitions();
       
-      foreach ($definitions as $key => $arr)  {
+      foreach ($definition_results as $array)  {
        
-        $this->defn = $arr['definition'];
+        $this->defn = $array['definition'];
 
-        $this->word_id = $word_id; // <---
+        $this->word_id = $word_id; 
 
         $rc =$this->insert_defn_stmt->execute();
+
+        $defn_id = (int) $this->pdo->lastInsertId();
+
+        //if (count($arrary['expressions']) !== 0) {
+
+        //  $this->insert_expression(
         
         // TODO: Insert the expressions also.
       }

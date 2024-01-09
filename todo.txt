@@ -1,4 +1,4 @@
-* For expressions, we only add them if they exist.
+* Add code to Definitions to insert expressions aslo. 
 
 
 * Move word_exists() method from WordInsertInterface. Put it Database.php or create a WordTable class
