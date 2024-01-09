@@ -36,9 +36,9 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
       // Insert each definition and its associated expressions
       $definitions = $deface->get_definitions();
       
-      foreach ($definitions as $key => $definition)  {
+      foreach ($definitions as $key => $arr)  {
        
-        $this->defn = $definition['definition'];
+        $this->defn = $arr['definition'];
 
         $this->word_id = $word_id; // <---
 
