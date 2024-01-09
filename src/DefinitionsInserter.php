@@ -40,12 +40,10 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
        
         $this->defn = $definition['definition'];
 
-        $this->word_id  = $word_id; // <---
+        $this->word_id = $word_id; // <---
 
         $rc =$this->insert_defn_stmt->execute();
       }
       return $rc;
    }
-
-   
 }
