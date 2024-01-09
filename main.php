@@ -38,7 +38,7 @@ try {
        
        $definitions = $sys->lookup($word, 'de', 'en');
 
-       if ($definitions == false) continue;
+       if ($definitions === false) continue;
        
        if ($db->word_exists($word) === false)
               
