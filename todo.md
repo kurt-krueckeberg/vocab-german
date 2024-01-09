@@ -1,3 +1,7 @@
-For the verb `aussehen`, definitions for `Aussehen` are returned. 
+For the verb `aussehen`, definitions of `Aussehen` are returned. 
 
-`$defnsInterface->matches['source']['pos'] == `noun`  and and `$defnsInterface->matches['source']['lemma']` == `Aussehen`
+`$defnsInterface->matches['source']['pos'] == `noun`  
+
+and 
+
+`$defnsInterface->matches['source']['lemma']` == `Aussehen`

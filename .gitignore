@@ -1,3 +1,4 @@
+*.html
 error.log
 config.xml
 config.php
