@@ -1,6 +1,8 @@
 ## TODOES
 
-## Problem of noun definition returned for verbs and definition for different verbs are also returned.
+The design does not match the Systran dictionary results.
+
+## Noun definition can be returned for a verb.
 
 ### Example One: noun definitions returned for verb
 
@@ -20,7 +22,7 @@ The way the code can tell that definitions for `Aussehen` were returned for the 
   
 Recurse in this case and insert the noun?
 
-### Prefix versions of non-prefix verb returned
+### Prefix versions of non-prefix verb get returned
 
 Take `gehen`. Definitions for all its prefixed forms get returned. The matches array is very large. We need to know
 the current of matches and whether
