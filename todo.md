@@ -29,3 +29,8 @@ the current of matches and whether
 
 `$defnsInterface->matches[$current_index]['source']['lemma'] == $word.
 
+The Oxford Dictionary API defines terms like:
+
+* lemma and headword
+* etc
+
