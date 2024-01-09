@@ -7,12 +7,12 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
    private \PDOStatement $insert_defn_stmt; 
    private string $defn = '';
 
-   private static $insert_defn_sql = "insert into defns values(:defn, :word_id)";
+   private static $insert_defn_sql = "insert into defns(defn, word_id) values(:defn, :word_id)";
     
    private \PDOStatement $insert_expr_stmt; 
    private string $expr = '';
 
-   private static $insert_exprs_sql = "insert into exprs values(:expr, :word_id)";
+   private static $insert_exprs_sql = "insert into exprs(expr, defn_id) values(:expr, :defn_id)";
 
    private int $word_id = -1;
 
@@ -43,6 +43,8 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
         $this->word_id = $word_id; // <---
 
         $rc =$this->insert_defn_stmt->execute();
+        
+        // TODO: Insert the expressions also.
       }
       return $rc;
    }
