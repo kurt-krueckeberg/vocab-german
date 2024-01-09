@@ -1,3 +1,3 @@
-For the input word `aussehen`, Systran returns definitions for the noun `Aussehen`. In this case, 
-`$defnsInterface->matches['source']['pos'] is `noun` and `$defnsInterface->matches['source']['lemma']` is `Aussehen` --
-not  `aussehen`. 
+For the verb `aussehen`, definitions for `Aussehen` are returned. 
+
+`$defnsInterface->matches['source']['pos'] == `noun`  and and `$defnsInterface->matches['source']['lemma']` == `Aussehen`
