@@ -4,6 +4,6 @@ namespace Vocab;
 
 interface DictionaryInterface {
    
-   public function lookup(string $str, string $src_lang, string $dest_lang) : false | DefinitionsInterface; 
+   public function lookup(string $str, string $src_lang, string $dest_lang) : false | LookupResult;
    public function getDictionaryLanguages() : array;
 }

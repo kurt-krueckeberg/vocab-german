@@ -25,32 +25,39 @@ try {
     $file = new FileReader($fwords);
     
     $c = new ConfigFile('config.xml');
-  
+    
     $sys = new SystranTranslator($c);
     
     $leipzig = new LeipzigSentenceFetcher($c);
    
-    $dsn = 'mysql:dbname=vocab;host=127.0.0.1'; // TODO: Put in config file.
+    $dsn = 'mysql:dbname=vocab;host=127.0.0.1';
 
     $db = new Database($dsn, 'kurt', 'kk0457');
     
     foreach ($file as $word) {
        
-       $definitions = $sys->lookup($word, 'de', 'en');
+       $results = $sys->lookup($word, 'de', 'en');
 
-       if ($definitions == false) 
-           continue;
+       if ($results === false) continue;
        
-       if ($db->word_exists($word) === false)
-              
-           $db->insert($word, $definitions); 
-   
-       //$iter = $leipzig->fetch_samples($word, 5);
+       if ($db->word_exists($word) === false) {
+         
+           echo "About to dump defintions for $word.\n";      
 
-      //$arr = $db_inserter->insert_samples($word, $iter, $sys); 
-    }
- 
-  } catch (Exception $e) {
+           foreach($results as $result) { 
+               
+             // definition is a SystranVerb- Noun- or WordDefinition. It is not a array!  
+             var_dump($result);
+
+             echo "---------------\n";
+
+            //  echo "source->lemma = " . $result['definition'] . "\n";
+
+            //  echo "Number of expressions = "   . count($result['expressions']) . "\n";
+           } 
+      }
+   } 
+} catch (Exception $e) {
 
       echo "Exception: message = " . $e->getMessage() . "\nError Code = " . $e->getCode() . "\n";
   } 

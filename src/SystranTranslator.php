@@ -62,28 +62,8 @@ class SystranTranslator extends RestApi implements TranslateInterface, Dictionar
       $this->errorLog->fwrite($err);
    }
 
-   private function createLookupResult(string $word, array $matches) : false | DefinitionsInterface
-   {
-      if (empty($matches))  {
-    
-        $err = "No definitions found for $word";
 
-        $this->logError($err);
-
-        echo "$err\n";
-
-        return false; 
-
-     } else  
-
-       return match($matches[0]['source']['pos']) {
-             "noun" => new SystranNounDefinitions($matches),
-             "verb" => new SystranVerbDefinitions($matches),
-             default => new SystranDefinitions($matches)
-       };
-   } 
-
-   final public function lookup(string $word, string $src, string $dest) : false | DefinitionsInterface
+   final public function lookup(string $word, string $src, string $dest) : false | LookupResult 
    {      
       static $lookup = array('method' => "POST", 'route' => "resources/dictionary/lookup");
 
@@ -97,12 +77,18 @@ class SystranTranslator extends RestApi implements TranslateInterface, Dictionar
       $query['input'] = $word;
 
       $contents = $this->request($lookup['method'], $lookup['route'], ['query' => $query]);
-             
-      $arr = json_decode($contents, true); // convert JSON string to \stdClass
+       
+/*      
+      $arr = json_decode($contents); // convert JSON string to \stdClass
+      $matches = $r->outputs[0]->output->matches; 
       
-      $matches = $arr['outputs'][0]['output']['matches']; 
+      
+*/    
+      $r = json_decode($contents, true); // convert JSON string to \stdClass
 
-       return $this->createLookupResult($word, $matches);
+      $matches = $r['outputs'][0]['output']['matches']; 
+      
+      return new LookupResult($word, $matches);
     }
     
      /*
