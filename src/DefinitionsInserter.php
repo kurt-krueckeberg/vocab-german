@@ -61,7 +61,7 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
 
         $defn_id = (int) $this->pdo->lastInsertId();
         
-        if (count($array['expressions'] != 0)
+        if (count($array['expressions']) != 0)
 
            $rc = $this->insert_expressions($defn_id, array['expressions']);        
       }
