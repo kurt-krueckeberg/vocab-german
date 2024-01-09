@@ -45,7 +45,6 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
        return true;
    }
 
-
    public function insert(int $word_id, DefinitionsInterface $deface) : bool
    {
       // Insert each definition and its associated expressions
@@ -58,6 +57,9 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
         $this->word_id = $word_id; 
 
         $rc =$this->insert_defn_stmt->execute();
+        
+        if ($rc === false)
+            return false;
 
         $defn_id = (int) $this->pdo->lastInsertId();
         
@@ -65,6 +67,7 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
 
            $rc = $this->insert_expressions($defn_id, $array['expressions']);        
       }
+      
       return $rc;
    }
 }
