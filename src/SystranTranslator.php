@@ -78,12 +78,11 @@ class SystranTranslator extends RestApi implements TranslateInterface, Dictionar
 
       $contents = $this->request($lookup['method'], $lookup['route'], ['query' => $query]);
        
-/*      
+      /*      
       $arr = json_decode($contents); // convert JSON string to \stdClass
       $matches = $r->outputs[0]->output->matches; 
-      
-      
-*/    
+      */    
+
       $r = json_decode($contents, true); // convert JSON string to \stdClass
 
       $matches = $r['outputs'][0]['output']['matches']; 
