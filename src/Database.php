@@ -75,7 +75,7 @@ class Database /* implements DatabaseInterface */ {
       return ($rc === false) ? false : true;            
    }
 
-   public function insert(string $word, DefinitionsInterface $deface) : int | false
+   public function insert(string $word, DefinitionsInterface $deface) : bool 
    {       
       $Inserter = $this->getInserter($deface->get_pos());
 
