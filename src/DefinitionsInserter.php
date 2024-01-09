@@ -3,18 +3,15 @@ declare(strict_types=1);
 namespace Vocab; 
 
 class DefinitionsInserter implements DefinitionsInserterInterface {
-    
+   
+   private static $insert_defn_sql = "insert into defns(defn, word_id) values(:defn, :word_id)";
    private \PDOStatement $insert_defn_stmt; 
    private string $defn = '';
-
-   private static $insert_defn_sql = "insert into defns(defn, word_id) values(:defn, :word_id)";
-    
+   private int $word_id = -1;
+      
+   private static $insert_exprs_sql = "insert into exprs(expr, defn_id) values(:expr, :defn_id)";
    private \PDOStatement $insert_expr_stmt; 
    private string $expr = '';
-
-   private static $insert_exprs_sql = "insert into exprs(expr, defn_id) values(:expr, :defn_id)";
-
-   private int $word_id = -1;
 
    public function __construct(\PDO $pdo)
    {
@@ -31,9 +28,21 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
       $this->insert_expr_stmt->bindParam(':word_id', $this->word_id, \PDO::PARAM_INT); 
    }
 
-   private function insert_expression(int $defn_id, string $expression) : bool
+   private function insert_expressions(int $defn_id, array $expressions) : bool
    {
-
+       foreach ($expressions as $expression) {
+        
+         $this->expr = $expression;
+        
+         $this->defn_id = $defn_id;
+        
+         $rc = $this->insert_expr_stmt->execute();
+         
+         if ($rc === false)
+             return $rc;
+       }
+       
+       return true;
    }
 
 
@@ -51,12 +60,10 @@ class DefinitionsInserter implements DefinitionsInserterInterface {
         $rc =$this->insert_defn_stmt->execute();
 
         $defn_id = (int) $this->pdo->lastInsertId();
-
-        //if (count($arrary['expressions']) !== 0) {
-
-        //  $this->insert_expression(
         
-        // TODO: Insert the expressions also.
+        if (count($array['expressions'] != 0)
+
+           $rc = $this->insert_expressions($defn_id, array['expressions']);        
       }
       return $rc;
    }
